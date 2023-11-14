@@ -19,7 +19,7 @@ namespace ExtendString
         public static string ToRandomCase(this string str)
         {
 
-            StringBuilder sb = new StringBuilder("", str.Length);
+            StringBuilder sb = new StringBuilder(str.Length);
 
             foreach (char c in str)
             {
